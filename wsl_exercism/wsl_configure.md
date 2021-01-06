@@ -42,7 +42,7 @@
       ![username_img](./password.PNG)
     - hopefully you'll be greeted with a ubuntu shell now that will look somewhat like this 
       
-      ![N|shell](shell.png)
+      ![N|shell](shell.PNG)
 
 <br><br>
 
@@ -50,13 +50,13 @@
 - open file explorer] ![file_explorer](file_explorer.PNG)
 - go to the URLbar of file explorer and paste `\\wsl$\Ubuntu\home` 
 
-  ![file_explorer_urlbar](file_explorer_urlbar.png)
+  ![file_explorer_urlbar](file_explorer_urlbar.PNG)
 - go to folder named after `your username`. in my case it was *twin_n*
-  ![username_folder](username_folder.png)
+  ![username_folder](username_folder.PNG)
 - to open wsl directories in code editor, follow the same steps in the `open folder` prompt of your code editor 
 
-  ![open_folder_vscode](open_folder_vscode.png)
-  ![open_folder_window_vscode](open_folder_window_vscode.png)
+  ![open_folder_vscode](open_folder_vscode.PNG)
+  ![open_folder_window_vscode](open_folder_window_vscode.PNG)
 
 <br>
 
@@ -89,7 +89,7 @@
 3. Configuring exercism - 
     - go to [exercism settings](https://exercism.io/my/settings) and copy the CLI token 
 
-      ![cli_token](cli_token.png)
+      ![cli_token](cli_token.PNG)
     - run `exercism configure --token=YOUR_API_TOKEN`. replace `YOUR_API_TOKEN` by the CLI Token you copied in the previous step. in my case i ran `exercism configure --token=af348bc1-d8cb-49c3-ba79-38ff2b223dc9`.
     - run `mkdir exercism` and then run `exercism configure -w ./exercism`.
 
@@ -99,21 +99,21 @@
 1. downloading exercise - 
     - go to any of the exercises and you'll find a link to download the exercise files on right side of the page. copy the download link from there.
 
-      ![exercise_download](exercise_download.png)
+      ![exercise_download](exercise_download.PNG)
     - go to the ubuntu app and run the copied link 
 
-      ![download_assignment_run](download_assignment_run.png)
+      ![download_assignment_run](download_assignment_run.PNG)
     - now if you open your wsl directory in file explorer and go to the exercism folder you will find you exercises there :D
 2. submitting exercise - 
     - cd to the folder where you assignment is
 
-      ![cd_to_exercise](cd_to_exercise.png)
+      ![cd_to_exercise](cd_to_exercise.PNG)
     
     or
 
     - open your exercise folder in file explorer
 
-      ![exercise_folder](exercise_folder.png)
+      ![exercise_folder](exercise_folder.PNG)
     - copy the highlighted part
 
       ![exercise_folder_url](exercise_folder_url.PNG)
