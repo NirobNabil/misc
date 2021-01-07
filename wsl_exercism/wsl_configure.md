@@ -86,6 +86,7 @@
     - `touch .bash_profile`
     - `echo 'export PATH=~/bin:$PATH' >> .bash_profile`
     - `echo 'source ~/.bash_profile' >> .bash_profile`
+    - close the ubuntu app and reopen it from searchbar.
 3. Configuring exercism - 
     - go to [exercism settings](https://exercism.io/my/settings) and copy the CLI token 
 
@@ -97,7 +98,7 @@
 
 > ## **Downloading and submitting assignment**:
 1. downloading exercise - 
-    - go to any of the exercises and you'll find a link to download the exercise files on right side of the page. copy the download link from there.
+    - go to any of the exercises(for example [this](https://exercism.io/my/solutions/b2351b2c6bae4b719de1d1741e681cf5)) and you'll find a link to download the exercise files on right side of the page. copy the download link from there.
 
       ![exercise_download](exercise_download.PNG)
     - go to the ubuntu app and run the copied link 
@@ -117,8 +118,8 @@
     - copy the highlighted part
 
       ![exercise_folder_url](exercise_folder_url.PNG)
-    - run `cd COPIED_DIRECTORY`. replace `COPIED_DIRECTORY` with what you copied in the last step.
-    - Now, when submitting you'll have to write directory of every file. for the *hello-world* there are two files you have to submit, `hello-world.cpp` and `hello-world-h` and these two files are in the `src` folder of your exercise folder. so, to submit these two files you'll have to run `exercism submit ./src/hello-world.cpp ./src/hello-world.h` (note that your current working directory in the terminal should be your current exercise folder). here `./src/hello-world.cpp` tells exercism to submit the `hello-world.cpp` that is inside my src directory, same goes for `./src/hello-world.cpp`. if you have multiple files in your src folder you'll have to add all of them after the `exercism submit` command.
+    - run `cd COPIED_DIRECTORY`. replace `COPIED_DIRECTORY` with what you copied in the last step and also replace `\` with `/` in the `COPIED_DIRECTORY otherwise ubuntu won't find your directory.
+    - Now, when submitting you'll have to write directory of every file. for the *hello-world* there are two files you have to submit, `hello_world.cpp` and `hello_world-h` and these two files are in the `src` folder of your exercise folder. so, to submit these two files you'll have to run `exercism submit ./src/hello_world.cpp ./src/hello_world.h` (note that your current working directory in the terminal should be your current exercise folder). here `./src/hello_world.cpp` tells exercism to submit the `hello_world.cpp` that is inside my src directory, same goes for `./src/hello_world.h`. if you have multiple files in your src folder you'll have to add all of them after the `exercism submit` command.
 
 <br><br>
 
