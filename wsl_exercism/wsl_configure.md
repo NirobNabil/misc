@@ -3,6 +3,10 @@
 
 <br>
 
+> #### you need to update your windows to the latest version available before you proceed. i don't understand windows version/build numbers at all (do literate me if you do understand). just keep updating until it says **up to date**
+
+<br>
+
 > ## **Configuring WSL 2** -
 <br>
 
